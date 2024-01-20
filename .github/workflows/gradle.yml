@@ -4,11 +4,6 @@ on:
   push:
     branches:
       - master
-    paths-ignore:
-      - '.github/**'
-      - '.run/**'
-      - '**.md'
-      - '!.github/workflows/gradle.yml'
   pull_request:
     branches:
       - master
